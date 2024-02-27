@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral40"
+    tools:context=".Cap4">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="343dp"
+        android:layout_height="575dp"
+        android:layout_marginBottom="16dp"
+        android:text="În captolul final, captolul 4 al poveștii noastre magice, Arion și Elara se apropiau de sfârșitul celei de-a doua aventuri. Drumul lor îi condusese prin locuri încântătoare, i-a învățat lecții de neprețuit și le-a oferit amintiri care vor rămâne în inimile lor pentru totdeauna.  Cu toate că se așteptau să încheie aventura cu o concluzie fericită, destinul a pregătit pentru ei un final cu totul neașteptat. În momentul culminant al călătoriei lor, Arion și Elara au descoperit un secret străvechi care a schimbat totul. O revelație surprinzătoare le-a deschis ochii către noi orizonturi și a redat magia unei lumi necunoscute.  Finalul neașteptat nu a fost doar o concluzie, ci și un nou început. În lumina acestei revelații, Arion și Elara au simțit că fiecare aventură este un ciclu continuu de învățare și descoperire. Înțelegând că magia vieții constă în acceptarea schimbărilor și în abilitatea de a privi în viitor cu inimile deschise, eroii noștri au primit cu bucurie fiecare pagină nouă a poveștii lor.  Astfel, captolul 4 s-a încheiat cu un zâmbet de înțelegere și cu promisiunea unui viitor plin de aventuri, prietenii și magie. Arion și Elara au învățat că finalul unei călătorii nu este niciodată sfârșitul, ci doar începutul unei noi povești extraordinare. În lumea lor magică, fiecare capitol este o ușă deschisă către noi mistere și miracole."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="96dp"
+        android:layout_height="23dp"
+        android:text="Capitol 4"
+        android:textColor="#EFEFEF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+</androidx.constraintlayout.widget.ConstraintLayout>

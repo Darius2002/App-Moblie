@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral40"
+    tools:context=".Cap3">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="320dp"
+        android:layout_height="508dp"
+        android:layout_marginBottom="4dp"
+        android:text="În captolul 3 al poveștii noastre magice, Arion și Elara continuau să-și croiască drum prin minunata lor călătorie. De data aceasta, lumea lor s-a deschis spre noi orizonturi, iar destinul le-a adus în cale prieteni noi și fascinanți.  Pe parcursul acestui captol, Arion și Elara au cunoscut creaturi magice cu povești de povestit și cu inimile deschise spre prietenie. Fiecare întâlnire a adăugat o notă de culoare în povestea lor, iar legăturile lor cu acești prieteni noi au adus bucurie și înțelegere.  În fața viitorului incert, Arion și Elara s-au pregătit cu încredere pentru următoarea aventură. Cu fiecare experiență, ei au devenit mai puternici, mai înțelepți și mai legați unul de celălalt. Prin râsete și provocări, prietenia lor a continuat să crească, devenind un far de lumină în calea lor.  Așadar, captolul 3 s-a încheiat cu bucurie și anticipare. Arion și Elara priveau spre viitor cu inimile pline de speranță, știind că următoarea aventură le va aduce noi experiențe și provocări. În această poveste magică, fiecare captol este o șansă pentru eroii noștri să descopere și să împărtășească frumusețea lumii lor unice."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Capitol 3"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral40"
+    tools:context=".Cap1">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="489dp"
+        android:layout_marginBottom="4dp"
+        android:text="A fost odată ca niciodată, într-un tărâm îndepărtat, un tânăr vrăjitor pe nume Arion. Într-o zi, în căutarea aventurii și a cunoașterii, Arion și-a întâlnit cel mai bun prieten, un zâmbet blând pe nume Elara.  Captolul 1 a fost începutul unei povestiri fascinante. Arion și Elara au hotărât să părăsească confortul casei lor și să exploreze lumea magică din jurul lor. Prima lor aventură i-a condus prin păduri fermecate, pe cărări luminoase și prin locuri pline de mister.  În timp ce descopereau secretele lumii magice, prietenia lor a crescut într-un mod magic. Ei s-au susținut reciproc în momentele dificile și au împărțit bucuriile fiecărei descoperiri. Fiecare pas pe care îl făceau era o nouă pagină în cartea aventurii lor.  Astfel a început povestea lor, cu promisiunea unui viitor plin de magie, prietenie și surprize neașteptate. Captolul 1 a fost doar începutul, iar lumea lor magică urma să se dezvăluie în fiecare nouă pagină a cărții vieții lor extraordinare."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Capitolul 1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+</androidx.constraintlayout.widget.ConstraintLayout>
